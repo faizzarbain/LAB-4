@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: arial;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            min-height: 600px;
+            background-color:aliceblue;
+        }
+
+        .logo {
+            min-height: 100px;
+            padding: 20px;
+            background-color: #142a4a;
+            color: white;
+        }
+
+        .navigation {
+            min-height: 50px;
+            padding-top: 10px;
+            padding: 20px;
+            background-color: #204477;
+            margin-top: 10px;
+        }
+
+        .navigation a{
+            text-decoration: none;
+            color: white;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+
+        .content {
+            min-height: 400px;
+            height: 518px;
+            padding-top: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .footer {
+            min-height: 20px;
+            margin-top: 10px;
+            background-color: #1a365d;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .side-bar {
+            width: 20%;
+            padding: 20px;
+            background-color:rgba(25, 147, 106, 0.451);
+            min-height: 400px;
+        }
+
+        .side-bar ul {
+            margin-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .side-bar li {
+            margin-bottom: 8px;
+        }
+
+        .side-bar a {
+            color:#1a365d;
+            font-weight: bold;
+        }
+
+        .body-area {
+            width: 70%;
+            min-height: 100%;
+            background-color: aliceblue;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="=container"></div>
+    <div class="logo">
+        <h1>FSKTM IT Club</h1>
+        <p>Learn. Build. Innovate. Together.</p>
+    </div>
+    <div class="navigation">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Events</a>
+        <a href="">Contact</a>
+    </div>
+
+    <div class="content">
+        <div class="side-bar">
+            <h3>Club Corner</h3><br>
+            <p>Explore activities and opportunities available to out members.</p><br>
+            <ul>
+                <li><a href="">Upcoming Events</a></li>
+                <li><a href="">Learning Resources</a></li>
+                <li><a href="">Join the Club</a></li>
+            </ul>
+            <br>
+            <p><b>Weekly meet-up</b></p>
+            <p>Wednesday, 3.00 PM</p>
+            <p>Student activity Room</p>
+        </div>
+        <div class="body-area">
+            <p style="color: green; font-weight: bold; padding: 10px; background-color: rgba(172, 255, 47, 0.362); max-width: 290px;">WELCOME TO OUR COMMUNITY</p><br>
+            <h2 Style="color:#204477;">Discover Technology, Create Possibilities</h2><br>
+            <p>Welcome to Campus Tech Society! We are a student-led community that brings together people interested in
+                web development, programming, design and emerging technology.</p><br>
+            <h3 style="color:#204477;">About Our Club</h3><br>
+            <p>Our mission is to help students build practical skills through hands-on workshops, mini projects and
+                knowledge-sharing sessions. Everyone is welcome, including beginners.</p><br>
+
+            <h3 style="color:#204477;">Upcoming Activities</h3><br>
+            <ul style="margin-left: 20px;">
+                <li><b>HTML & CSS Workshop:</b> Create your first website.</li>
+                <li><b>Hackathon Day:</b> Build an idea with your team.</li>
+                <li><b>Tech Talk:</b> Learn from industry speakers.</li>
+            </ul><br>
+            <h3 style="color:#204477;">Learning Resources</h3><br>
+            <p>Start learning with free tutorials at <a href="https://www.w3schools.com" target="_blank">W3Schools</a>.
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>2026 FSKTM IT Club. All rights reserved.</p>
+    </div>
+</body>
+
+</html>
